@@ -1,6 +1,6 @@
 {
-  "browse":[
-        {
+  "posts": [
+    {
          "browseResults":[
             {
                "id":"Channel1.Device1.Tag1"
@@ -33,20 +33,6 @@
          "succeeded":true,
          "reason":""
       }
-  ],
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
   ],
   "comments": [
     {
