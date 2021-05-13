@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "browse": [
     {
          "browseResults":[
             {
@@ -34,19 +34,41 @@
          "reason":""
       }
   ],
-  "comments": [
+  "read": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
+   "readResults":[
+      {
+         "id":"Channel1.Device1.Tag1",
+         "s":true,
+         "r":"",
+         "v":164,
+         "t":1620654266242
+      },
+      {
+         "id":"Channel1.Device1.Tag1",
+         "s":true,
+         "r":"",
+         "v":164,
+         "t":1620654266242
+      },
+      {
+         "id":"Channel1.Device1.Tag2",
+         "s":true,
+         "r":"",
+         "v":0,
+         "t":1620654104251
+      },
+      {
+         "id":"Channel1.Device1.Tag1test",
+         "s":false,
+         "r":"Tag is invalid.",
+         "v":"",
+         "t":0
+      }
+   ]
+}
   ],
   "profile": {
-    "name": "typicode"
+    "name": "vinh typical"
   }
 }
