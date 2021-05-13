@@ -1,4 +1,39 @@
 {
+  "browse":[
+        {
+         "browseResults":[
+            {
+               "id":"Channel1.Device1.Tag1"
+            },
+            {
+               "id":"Channel1.Device1.Tag2"
+            },
+            {
+               "id":"Simulation Examples.Functions.Ramp1"
+            },
+            {
+               "id":"Simulation Examples.Functions.Ramp2"
+            },
+            {
+               "id":"Simulation Examples.Functions.Random1"
+            },
+            {
+               "id":"Simulation Examples.Functions.Random2"
+            },
+            {
+               "id":"Simulation Examples.Functions.Sine1"
+            },
+            {
+               "id":"Simulation Examples.Functions.Sine2"
+            },
+            {
+               "id":"Simulation Examples.Functions.User1"
+            }
+         ],
+         "succeeded":true,
+         "reason":""
+      }
+  ],
   "posts": [
     {
       "id": 1,
