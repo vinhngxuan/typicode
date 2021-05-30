@@ -38,25 +38,74 @@
     {
    "readResults":[
       {
-         "id":"Channel1.Device1.Tag1",
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Hz",
          "s":true,
          "r":"",
          "v":164,
-         "t":1620654266242
+         "t":1622387445000
       },
       {
-         "id":"Channel1.Device1.Tag1",
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_I1",
          "s":true,
          "r":"",
          "v":164,
-         "t":1620654266242
+         "t":1622387445000
       },
       {
-         "id":"Channel1.Device1.Tag2",
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_I3",
          "s":true,
          "r":"",
          "v":0,
-         "t":1620654104251
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_PF1",
+         "s":false,
+         "r":"Tag is invalid.",
+         "v":"",
+         "t":0
+      },
+      {
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Ptot",
+         "s":true,
+         "r":"",
+         "v":5,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Wh_Im",
+         "s":true,
+         "r":"",
+         "v":0,
+         "t":0
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-A1.CHILLER A1 AUTO/MANUAL MODE.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":8,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-A1.CHILLER A1 CW FLOWRATE.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":13,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-A1.CWP A1 MCC TRIP STATUS.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":1,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-B1.CT B1 FAN2 AUTO/MANUAL MODE.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":1,
+         "t":1622387445000
       },
       {
          "id":"Channel1.Device1.Tag1test",
@@ -64,11 +113,25 @@
          "r":"Tag is invalid.",
          "v":"",
          "t":0
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-B1.CWP B1 START COMMAND.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":11,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-B1.HEADER B CHW SUPPLY PRESSURE.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":5,
+         "t":1622387445000
       }
    ]
 }
   ,
   "profile": {
-    "name": "vinh typical"
+    "name": "vinh typicode"
   }
 }
