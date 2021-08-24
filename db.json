@@ -1,13 +1,5 @@
 {
-  "PDGGetToken":
-  {
-    "access_token": "AQAAANCMnd8BFdERjHoAwE_Cl-sBAAAAAwoH4n0-sU60ZpXBmfmBZAAAAAACAAAAAAAQZgAAAAEAACAAAABObWd_r-oLl57lchPgS-yVsJCVTmWd-2eXm1KdPj7axgAAAAAOgAAAAAIAACAAAADgG4jCo-kp3JdODvPFRKedJn6xiMM-EZgOrBIT6-UyN9ABAABj1R9UuVuYsU1cfZ3ejuA8-uByDg7q2gX3Z2qAd1rKaVUMM1C9kWa0Myqn8cJvXNuTjqOV3EiMRE2YqGsVDqe_uOLZZfr-AuQQFUlgWgpJeKTjFa9_BFrEn4g-dNapUpfRHQw8tPAza136lBQkDYtE7LeevFjfcvgZdtxkFUQEk74A_3YK_pMbVatX_p-CdvtrOpobPXeh7tURGbb797yBkv6UmFTXRZXSUh0y7ufnEhUo9EBh-lNoXuwyTqAJumc_5tpEa0roC-44MH9l49GkxXY-jK7Un8IKzz1QJZIdpA2wxQmBAkuUqvUmaF6Btaf-a2xpLMECSWU5bQn-6NXMb5p-wOrv5O1qgCDOv-F6R3SdhccTjkvW3509M6QVnoxuc6_yDHM1krieI-ORz9p_tjigoYFhZnZVVxmY907ne2uZu4grOVylYP43FQTSASbuRNRS12GVyXHLc1Pc9qyUdgTeWd2Awum38NB_2MlUq0pKhUspYVVBhjWQQ4WqKJLJyC9_sxMPHGzNNqNe8xicq_mUEK701yFN3rrKOno8ieRaZrCVrygqYvB_JEkzCnuMupuTKvtYR4Tqk6G1IZYvKaLXNFDzwTnwsD0ZMt2pq0AAAADx97b80KAzyg0XOIYTbbRyUpSC4wwi7zhm5acaHGdZiHTCxEi-2nxSNu7H3he9bM-B0RMDocU5pXJUOkNipWdf",
-    "token_type": "bearer",
-    "userName": "admin",
-    ".issued": "Thu, 19 Aug 2021 09:28:09 GMT",
-    ".expires": "Thu, 19 Aug 2021 10:28:09 GMT"
-  }
-  ,"profile": {
+"profile": {
     "name": "vinh typicode"
   }
 }
