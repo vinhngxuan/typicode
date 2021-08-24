@@ -22,42 +22,6 @@
     "Type": 3,
     "ParentId": "00/PDGSG1",
     "Id": "00/PDGSG1/Event View"
-  },
-  {
-    "Name": "PDGSG1-ConfigDBSize",
-    "Description": "ConfigDBSize",
-    "Type": 3,
-    "Writeable": 0,
-    "Forceable": 0,
-    "State": 0,
-    "Unit": "none",
-    "Value": "63.763671875",
-    "ParentId": "00/PDGSG1",
-    "Id": "11/PDGSG1/ConfigDBSize"
-  },
-  {
-    "Name": "PDGSG1-DateTime",
-    "Description": "DateTime",
-    "Type": 0,
-    "Writeable": 0,
-    "Forceable": 0,
-    "State": 0,
-    "Unit": "none",
-    "Value": "2021-08-19T05:40:55",
-    "ParentId": "00/PDGSG1",
-    "Id": "11/PDGSG1/DateTime"
-  },
-  {
-    "Name": "PDGSG1-TrendStorageUsage",
-    "Description": "TrendStorageUsage",
-    "Type": 4,
-    "Writeable": 0,
-    "Forceable": 0,
-    "State": 0,
-    "Unit": "none",
-    "Value": "2505000",
-    "ParentId": "00/PDGSG1",
-    "Id": "11/PDGSG1/TrendStorageUsage"
   }
 ]
   ,"browse": 
