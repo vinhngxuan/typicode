@@ -8,14 +8,6 @@
     ".issued": "Thu, 19 Aug 2021 09:28:09 GMT",
     ".expires": "Thu, 19 Aug 2021 10:28:09 GMT"
   }
-  ,"PDG/Root":
-  {
-    "Name": "PDGSG1",
-    "Description": "",
-    "Type": 1,
-    "ParentId": "",
-    "Id": "00/PDGSG1"
-  }
   ,"PDG/Containers/00%2FPDGSG1/Children":
   [
   {
