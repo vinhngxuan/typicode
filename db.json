@@ -6,9 +6,8 @@
     "userName": "admin",
     ".issued": "Thu, 19 Aug 2021 09:28:09 GMT",
     ".expires": "Thu, 19 Aug 2021 10:28:09 GMT"
-  }
-  ,"PDG-Equipments-Children":
-  [
+  },
+  "PDG-Equipments-Children": [
     {
       "Name": "PAHU",
       "Description": "",
@@ -72,8 +71,8 @@
       "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
       "Id": "00/DCIM-2B1-1B-AS1/Equipment/WLD"
     }
-  ]
-  ,"PDG-PAHU-2B-1-Values": [
+  ],
+  "PDG-PAHU-2B-1-Values": [
     {
       "Name": "MdVlvCtrl",
       "Description": "PDGSG1-PAHU-2B-1  Modulating Valve Control",
