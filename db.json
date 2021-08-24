@@ -6,8 +6,74 @@
     "userName": "admin",
     ".issued": "Thu, 19 Aug 2021 09:28:09 GMT",
     ".expires": "Thu, 19 Aug 2021 10:28:09 GMT"
-  },
-  "PAHU-2B-1-Values": [
+  }
+  ,"PDG-Equipments-Children":
+  [
+    {
+      "Name": "PAHU",
+      "Description": "",
+      "Type": 0,
+      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
+      "Id": "00/DCIM-2B1-1B-AS1/Equipment/PAHU"
+    },
+    {
+      "Name": "FCU",
+      "Description": "",
+      "Type": 0,
+      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
+      "Id": "00/DCIM-2B1-1B-AS1/Equipment/FCU"
+    },
+    {
+      "Name": "EAF",
+      "Description": "",
+      "Type": 0,
+      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
+      "Id": "00/DCIM-2B1-1B-AS1/Equipment/EAF"
+    },
+    {
+      "Name": "CDRP",
+      "Description": "",
+      "Type": 0,
+      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
+      "Id": "00/DCIM-2B1-1B-AS1/Equipment/CDRP"
+    },
+    {
+      "Name": "Panel",
+      "Description": "",
+      "Type": 0,
+      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
+      "Id": "00/DCIM-2B1-1B-AS1/Equipment/Panel"
+    },
+    {
+      "Name": "FP System",
+      "Description": "",
+      "Type": 0,
+      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
+      "Id": "00/DCIM-2B1-1B-AS1/Equipment/FP System"
+    },
+    {
+      "Name": "SSB-CRAC",
+      "Description": "",
+      "Type": 0,
+      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
+      "Id": "00/DCIM-2B1-1B-AS1/Equipment/SSB-CRAC"
+    },
+    {
+      "Name": "BTU",
+      "Description": "",
+      "Type": 0,
+      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
+      "Id": "00/DCIM-2B1-1B-AS1/Equipment/BTU"
+    },
+    {
+      "Name": "WLD",
+      "Description": "",
+      "Type": 0,
+      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
+      "Id": "00/DCIM-2B1-1B-AS1/Equipment/WLD"
+    }
+  ]
+  ,"PDG-PAHU-2B-1-Values": [
     {
       "Name": "MdVlvCtrl",
       "Description": "PDGSG1-PAHU-2B-1  Modulating Valve Control",
