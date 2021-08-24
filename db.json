@@ -6,8 +6,168 @@
     "userName": "admin",
     ".issued": "Thu, 19 Aug 2021 09:28:09 GMT",
     ".expires": "Thu, 19 Aug 2021 10:28:09 GMT"
-  },
-  "profile": {
+  }
+  ,"PAHU-2B-1-Values": {
+  [
+	  {
+		"Name": "MdVlvCtrl",
+		"Description": "PDGSG1-PAHU-2B-1  Modulating Valve Control",
+		"Type": 3,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "0",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/MdVlvCtrl"
+	  },
+	  {
+		"Name": "Dmp1OnSts",
+		"Description": "PDGSG1-PAHU-2B-1  Motorised Damper 1 On Status",
+		"Type": 1,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "False",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Dmp1OnSts"
+	  },
+	  {
+		"Name": "Dmp2OnSts",
+		"Description": "PDGSG1-PAHU-2B-1  Motorised Damper 2 On Status",
+		"Type": 1,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "False",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Dmp2OnSts"
+	  },
+	  {
+		"Name": "OnSts",
+		"Description": "PDGSG1-PAHU-2B-1  On Status",
+		"Type": 1,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "False",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/OnSts"
+	  },
+	  {
+		"Name": "Auto",
+		"Description": "PDGSG1-PAHU-2B-1  Auto Mode",
+		"Type": 1,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "False",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Auto"
+	  },
+	  {
+		"Name": "Dmp1OffSts",
+		"Description": "PDGSG1-PAHU-2B-1  Motorised Damper 1 Off Status",
+		"Type": 1,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "False",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Dmp1OffSts"
+	  },
+	  {
+		"Name": "Dmp2OffSts",
+		"Description": "PDGSG1-PAHU-2B-1  Motorised Damper 2 Off Status",
+		"Type": 1,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "False",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Dmp2OffSts"
+	  },
+	  {
+		"Name": "Manual",
+		"Description": "PDGSG1-PAHU-2B-1  Manual Mode",
+		"Type": 1,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "False",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Manual"
+	  },
+	  {
+		"Name": "OffSts",
+		"Description": "PDGSG1-PAHU-2B-1  Off Status",
+		"Type": 1,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "False",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/OffSts"
+	  },
+	  {
+		"Name": "RaTmp",
+		"Description": "PDGSG1-PAHU-2B-1  Return Air Temperature",
+		"Type": 3,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "0",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/RaTmp"
+	  },
+	  {
+		"Name": "SaTmp",
+		"Description": "PDGSG1-PAHU-2B-1 Supply Air Temperature",
+		"Type": 3,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "0",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/SaTmp"
+	  },
+	  {
+		"Name": "SaTmpSpt",
+		"Description": "PDGSG1-PAHU-2B-1  Supply Air Temperature Setpoint",
+		"Type": 3,
+		"Writeable": 1,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "11",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/SaTmpSpt"
+	  },
+	  {
+		"Name": "Trp",
+		"Description": "PDGSG1-PAHU-2B-1  Motor Trip",
+		"Type": 1,
+		"Writeable": 0,
+		"Forceable": 1,
+		"State": 0,
+		"Unit": "none",
+		"Value": "False",
+		"ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
+		"Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Trp"
+	  }  
+	]
+  }
+  ,"profile": {
     "name": "vinh typicode"
   }
 }
