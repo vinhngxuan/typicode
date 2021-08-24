@@ -8,6 +8,235 @@
     ".issued": "Thu, 19 Aug 2021 09:28:09 GMT",
     ".expires": "Thu, 19 Aug 2021 10:28:09 GMT"
   }
+  ,"PDG/Root":
+  {
+    "Name": "PDGSG1",
+    "Description": "",
+    "Type": 1,
+    "ParentId": "",
+    "Id": "00/PDGSG1"
+  }
+  ,"PDG/Containers/00%2FPDGSG1/Children":
+  [
+  {
+    "Name": "Servers",
+    "Description": "",
+    "Type": 0,
+    "ParentId": "00/PDGSG1",
+    "Id": "00/PDGSG1/Servers"
+  },
+  {
+    "Name": "Event View",
+    "Description": "",
+    "Type": 3,
+    "ParentId": "00/PDGSG1",
+    "Id": "00/PDGSG1/Event View"
+  },
+  {
+    "Name": "PDGSG1-ConfigDBSize",
+    "Description": "ConfigDBSize",
+    "Type": 3,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "63.763671875",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/ConfigDBSize"
+  },
+  {
+    "Name": "PDGSG1-DateTime",
+    "Description": "DateTime",
+    "Type": 0,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "2021-08-19T05:40:55",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/DateTime"
+  },
+  {
+    "Name": "PDGSG1-FBPEngine",
+    "Description": "FBPEngine",
+    "Type": 2,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "3.0",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/FBPEngine"
+  },
+  {
+    "Name": "PDGSG1-FileDBSize",
+    "Description": "FileDBSize",
+    "Type": 3,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "349.013834953308",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/FileDBSize"
+  },
+  {
+    "Name": "PDGSG1-HostName",
+    "Description": "HostName",
+    "Type": 2,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "DESKTOP-91GSFAR",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/HostName"
+  },
+  {
+    "Name": "PDGSG1-Hour",
+    "Description": "Hour",
+    "Type": 5,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "h",
+    "Value": "5",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/Hour"
+  },
+  {
+    "Name": "PDGSG1-IPDNSAddress",
+    "Description": "IPDNSAddress",
+    "Type": 2,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "10.204.28.22",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/IPDNSAddress"
+  },
+  {
+    "Name": "PDGSG1-Minute",
+    "Description": "Minute",
+    "Type": 5,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "min",
+    "Value": "40",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/Minute"
+  },
+  {
+    "Name": "PDGSG1-RequestThreadPoolSize",
+    "Description": "RequestThreadPoolSize",
+    "Type": 5,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "286",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/RequestThreadPoolSize"
+  },
+  {
+    "Name": "PDGSG1-RequestThreadPoolUsage",
+    "Description": "RequestThreadPoolUsage",
+    "Type": 5,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "2",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/RequestThreadPoolUsage"
+  },
+  {
+    "Name": "PDGSG1-SPEngine",
+    "Description": "SPEngine",
+    "Type": 2,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "3",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/SPEngine"
+  },
+  {
+    "Name": "PDGSG1-SWVersion",
+    "Description": "SWVersion",
+    "Type": 2,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "3.2.1.630",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/SWVersion"
+  },
+  {
+    "Name": "PDGSG1-Second",
+    "Description": "Second",
+    "Type": 5,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "s",
+    "Value": "56",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/Second"
+  },
+  {
+    "Name": "PDGSG1-ThreadPoolSize",
+    "Description": "ThreadPoolSize",
+    "Type": 5,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "66",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/ThreadPoolSize"
+  },
+  {
+    "Name": "PDGSG1-ThreadPoolUsage",
+    "Description": "ThreadPoolUsage",
+    "Type": 5,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "0",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/ThreadPoolUsage"
+  },
+  {
+    "Name": "PDGSG1-TrendStorageCapacity",
+    "Description": "TrendStorageCapacity",
+    "Type": 4,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "2500000000",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/TrendStorageCapacity"
+  },
+  {
+    "Name": "PDGSG1-TrendStorageUsage",
+    "Description": "TrendStorageUsage",
+    "Type": 4,
+    "Writeable": 0,
+    "Forceable": 0,
+    "State": 0,
+    "Unit": "none",
+    "Value": "2505000",
+    "ParentId": "00/PDGSG1",
+    "Id": "11/PDGSG1/TrendStorageUsage"
+  }
+]
   ,"browse": 
     {
          "browseResults":[
