@@ -1,235 +1,136 @@
 {
-  "PDGGetToken": {
-    "access_token": "AQAAANCMnd8BFdERjHoAwE_Cl-sBAAAAAwoH4n0-sU60ZpXBmfmBZAAAAAACAAAAAAAQZgAAAAEAACAAAABObWd_r-oLl57lchPgS-yVsJCVTmWd-2eXm1KdPj7axgAAAAAOgAAAAAIAACAAAADgG4jCo-kp3JdODvPFRKedJn6xiMM-EZgOrBIT6-UyN9ABAABj1R9UuVuYsU1cfZ3ejuA8-uByDg7q2gX3Z2qAd1rKaVUMM1C9kWa0Myqn8cJvXNuTjqOV3EiMRE2YqGsVDqe_uOLZZfr-AuQQFUlgWgpJeKTjFa9_BFrEn4g-dNapUpfRHQw8tPAza136lBQkDYtE7LeevFjfcvgZdtxkFUQEk74A_3YK_pMbVatX_p-CdvtrOpobPXeh7tURGbb797yBkv6UmFTXRZXSUh0y7ufnEhUo9EBh-lNoXuwyTqAJumc_5tpEa0roC-44MH9l49GkxXY-jK7Un8IKzz1QJZIdpA2wxQmBAkuUqvUmaF6Btaf-a2xpLMECSWU5bQn-6NXMb5p-wOrv5O1qgCDOv-F6R3SdhccTjkvW3509M6QVnoxuc6_yDHM1krieI-ORz9p_tjigoYFhZnZVVxmY907ne2uZu4grOVylYP43FQTSASbuRNRS12GVyXHLc1Pc9qyUdgTeWd2Awum38NB_2MlUq0pKhUspYVVBhjWQQ4WqKJLJyC9_sxMPHGzNNqNe8xicq_mUEK701yFN3rrKOno8ieRaZrCVrygqYvB_JEkzCnuMupuTKvtYR4Tqk6G1IZYvKaLXNFDzwTnwsD0ZMt2pq0AAAADx97b80KAzyg0XOIYTbbRyUpSC4wwi7zhm5acaHGdZiHTCxEi-2nxSNu7H3he9bM-B0RMDocU5pXJUOkNipWdf",
-    "token_type": "bearer",
-    "expires_in": 3599,
-    "userName": "admin",
-    ".issued": "Thu, 19 Aug 2021 09:28:09 GMT",
-    ".expires": "Thu, 19 Aug 2021 10:28:09 GMT"
-  },
-  "PDG-Equipments-Children": [
+  "browse": 
     {
-      "Name": "PAHU",
-      "Description": "",
-      "Type": 0,
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
-      "Id": "00/DCIM-2B1-1B-AS1/Equipment/PAHU"
-    },
+         "browseResults":[
+            {
+               "id":"Channel1.Device1.Tag1"
+            },
+            {
+               "id":"Channel1.Device1.Tag2"
+            },
+            {
+               "id":"Simulation Examples.Functions.Ramp1"
+            },
+            {
+               "id":"Simulation Examples.Functions.Ramp2"
+            },
+            {
+               "id":"Simulation Examples.Functions.Random1"
+            },
+            {
+               "id":"Simulation Examples.Functions.Random2"
+            },
+            {
+               "id":"Simulation Examples.Functions.Sine1"
+            },
+            {
+               "id":"Simulation Examples.Functions.Sine2"
+            },
+            {
+               "id":"Simulation Examples.Functions.User1"
+            }
+         ],
+         "succeeded":true,
+         "reason":""
+      }
+  ,
+  "read": 
     {
-      "Name": "FCU",
-      "Description": "",
-      "Type": 0,
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
-      "Id": "00/DCIM-2B1-1B-AS1/Equipment/FCU"
-    },
-    {
-      "Name": "EAF",
-      "Description": "",
-      "Type": 0,
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
-      "Id": "00/DCIM-2B1-1B-AS1/Equipment/EAF"
-    },
-    {
-      "Name": "CDRP",
-      "Description": "",
-      "Type": 0,
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
-      "Id": "00/DCIM-2B1-1B-AS1/Equipment/CDRP"
-    },
-    {
-      "Name": "Panel",
-      "Description": "",
-      "Type": 0,
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
-      "Id": "00/DCIM-2B1-1B-AS1/Equipment/Panel"
-    },
-    {
-      "Name": "FP System",
-      "Description": "",
-      "Type": 0,
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
-      "Id": "00/DCIM-2B1-1B-AS1/Equipment/FP System"
-    },
-    {
-      "Name": "SSB-CRAC",
-      "Description": "",
-      "Type": 0,
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
-      "Id": "00/DCIM-2B1-1B-AS1/Equipment/SSB-CRAC"
-    },
-    {
-      "Name": "BTU",
-      "Description": "",
-      "Type": 0,
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
-      "Id": "00/DCIM-2B1-1B-AS1/Equipment/BTU"
-    },
-    {
-      "Name": "WLD",
-      "Description": "",
-      "Type": 0,
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment",
-      "Id": "00/DCIM-2B1-1B-AS1/Equipment/WLD"
-    }
-  ],
-  "PDG-PAHU-2B-1-Values": [
-    {
-      "Name": "MdVlvCtrl",
-      "Description": "PDGSG1-PAHU-2B-1  Modulating Valve Control",
-      "Type": 3,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "0",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/MdVlvCtrl"
-    },
-    {
-      "Name": "Dmp1OnSts",
-      "Description": "PDGSG1-PAHU-2B-1  Motorised Damper 1 On Status",
-      "Type": 1,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "False",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Dmp1OnSts"
-    },
-    {
-      "Name": "Dmp2OnSts",
-      "Description": "PDGSG1-PAHU-2B-1  Motorised Damper 2 On Status",
-      "Type": 1,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "False",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Dmp2OnSts"
-    },
-    {
-      "Name": "OnSts",
-      "Description": "PDGSG1-PAHU-2B-1  On Status",
-      "Type": 1,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "False",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/OnSts"
-    },
-    {
-      "Name": "Auto",
-      "Description": "PDGSG1-PAHU-2B-1  Auto Mode",
-      "Type": 1,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "False",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Auto"
-    },
-    {
-      "Name": "Dmp1OffSts",
-      "Description": "PDGSG1-PAHU-2B-1  Motorised Damper 1 Off Status",
-      "Type": 1,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "False",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Dmp1OffSts"
-    },
-    {
-      "Name": "Dmp2OffSts",
-      "Description": "PDGSG1-PAHU-2B-1  Motorised Damper 2 Off Status",
-      "Type": 1,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "False",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Dmp2OffSts"
-    },
-    {
-      "Name": "Manual",
-      "Description": "PDGSG1-PAHU-2B-1  Manual Mode",
-      "Type": 1,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "False",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Manual"
-    },
-    {
-      "Name": "OffSts",
-      "Description": "PDGSG1-PAHU-2B-1  Off Status",
-      "Type": 1,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "False",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/OffSts"
-    },
-    {
-      "Name": "RaTmp",
-      "Description": "PDGSG1-PAHU-2B-1  Return Air Temperature",
-      "Type": 3,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "0",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/RaTmp"
-    },
-    {
-      "Name": "SaTmp",
-      "Description": "PDGSG1-PAHU-2B-1 Supply Air Temperature",
-      "Type": 3,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "0",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/SaTmp"
-    },
-    {
-      "Name": "SaTmpSpt",
-      "Description": "PDGSG1-PAHU-2B-1  Supply Air Temperature Setpoint",
-      "Type": 3,
-      "Writeable": 1,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "11",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/SaTmpSpt"
-    },
-    {
-      "Name": "Trp",
-      "Description": "PDGSG1-PAHU-2B-1  Motor Trip",
-      "Type": 1,
-      "Writeable": 0,
-      "Forceable": 1,
-      "State": 0,
-      "Unit": "none",
-      "Value": "False",
-      "ParentId": "00/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values",
-      "Id": "01/DCIM-2B1-1B-AS1/Equipment/PAHU/PAHU-2B-1/Values/Trp"
-    }
-  ],
+   "readResults":[
+      {
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Hz",
+         "s":true,
+         "r":"",
+         "v":164,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_I1",
+         "s":true,
+         "r":"",
+         "v":164,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_I3",
+         "s":true,
+         "r":"",
+         "v":0,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_PF1",
+         "s":false,
+         "r":"Tag is invalid.",
+         "v":"",
+         "t":0
+      },
+      {
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Ptot",
+         "s":true,
+         "r":"",
+         "v":5,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Wh_Im",
+         "s":true,
+         "r":"",
+         "v":0,
+         "t":0
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-A1.CHILLER A1 AUTO/MANUAL MODE.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":8,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-A1.CHILLER A1 CW FLOWRATE.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":13,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-A1.CWP A1 MCC TRIP STATUS.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":1,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-B1.CT B1 FAN2 AUTO/MANUAL MODE.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":1,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel1.Device1.Tag1test",
+         "s":false,
+         "r":"Tag is invalid.",
+         "v":"",
+         "t":0
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-B1.CWP B1 START COMMAND.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":11,
+         "t":1622387445000
+      },
+      {
+         "id":"Channel-GED.Producer.CHILLER-UC600-B1.HEADER B CHW SUPPLY PRESSURE.PRESENTVALUE",
+         "s":true,
+         "r":"",
+         "v":5,
+         "t":1622387445000
+      }
+   ]
+}
+  ,
   "profile": {
     "name": "vinh typicode"
   }
