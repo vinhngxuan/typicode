@@ -1,136 +1,185 @@
 {
-  "browse": 
-    {
-         "browseResults":[
-            {
-               "id":"Channel1.Device1.Tag1"
-            },
-            {
-               "id":"Channel1.Device1.Tag2"
-            },
-            {
-               "id":"Simulation Examples.Functions.Ramp1"
-            },
-            {
-               "id":"Simulation Examples.Functions.Ramp2"
-            },
-            {
-               "id":"Simulation Examples.Functions.Random1"
-            },
-            {
-               "id":"Simulation Examples.Functions.Random2"
-            },
-            {
-               "id":"Simulation Examples.Functions.Sine1"
-            },
-            {
-               "id":"Simulation Examples.Functions.Sine2"
-            },
-            {
-               "id":"Simulation Examples.Functions.User1"
-            }
-         ],
-         "succeeded":true,
-         "reason":""
+  "findAddressCandidates": {
+    "spatialReference": {
+      "wkid": 3414,
+      "latestwkid": 3414,
+      "candidates": [
+        {
+          "address": "138632",
+          "location": {
+            "x": 22890.124017722963,
+            "y": 31294.960339425783
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "138632",
+            "X": 22890.124018,
+            "Y": 31294.980339,
+            "Addr_type": "Address"
+          }
+        },
+        {
+          "address": "138632",
+          "location": {
+            "x": 22907.006241220322,
+            "y": 31318.851965363763
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "138632",
+            "X": 22907.006241,
+            "Y": 3131.8519650000003,
+            "Addr_type": "Address"
+          }
+        },
+        {
+          "address": "138632",
+          "location": {
+            "x": 22909.334823771682,
+            "y": 31310.745472761242
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "138632",
+            "X": 22907.006241,
+            "Y": 3131.8519650000003,
+            "Addr_type": "Address"
+          }
+        }
+      ]
+    }
+  },
+  "browse": {
+    "browseResults": [
+      {
+        "id": "Channel1.Device1.Tag1"
+      },
+      {
+        "id": "Channel1.Device1.Tag2"
+      },
+      {
+        "id": "Simulation Examples.Functions.Ramp1"
+      },
+      {
+        "id": "Simulation Examples.Functions.Ramp2"
+      },
+      {
+        "id": "Simulation Examples.Functions.Random1"
+      },
+      {
+        "id": "Simulation Examples.Functions.Random2"
+      },
+      {
+        "id": "Simulation Examples.Functions.Sine1"
+      },
+      {
+        "id": "Simulation Examples.Functions.Sine2"
+      },
+      {
+        "id": "Simulation Examples.Functions.User1"
       }
-  ,
-  "read": 
-    {
-   "readResults":[
+    ],
+    "succeeded": true,
+    "reason": ""
+  },
+  "read": {
+    "readResults": [
       {
-         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Hz",
-         "s":true,
-         "r":"",
-         "v":164,
-         "t":1622387445000
+        "id": "Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Hz",
+        "s": true,
+        "r": "",
+        "v": 164,
+        "t": 1622387445000
       },
       {
-         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_I1",
-         "s":true,
-         "r":"",
-         "v":164,
-         "t":1622387445000
+        "id": "Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_I1",
+        "s": true,
+        "r": "",
+        "v": 164,
+        "t": 1622387445000
       },
       {
-         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_I3",
-         "s":true,
-         "r":"",
-         "v":0,
-         "t":1622387445000
+        "id": "Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_I3",
+        "s": true,
+        "r": "",
+        "v": 0,
+        "t": 1622387445000
       },
       {
-         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_PF1",
-         "s":false,
-         "r":"Tag is invalid.",
-         "v":"",
-         "t":0
+        "id": "Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_PF1",
+        "s": false,
+        "r": "Tag is invalid.",
+        "v": "",
+        "t": 0
       },
       {
-         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Ptot",
-         "s":true,
-         "r":"",
-         "v":5,
-         "t":1622387445000
+        "id": "Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Ptot",
+        "s": true,
+        "r": "",
+        "v": 5,
+        "t": 1622387445000
       },
       {
-         "id":"Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Wh_Im",
-         "s":true,
-         "r":"",
-         "v":0,
-         "t":0
+        "id": "Channel-GED.Producer.192_168_2_223./.DB-LP7-M01_Wh_Im",
+        "s": true,
+        "r": "",
+        "v": 0,
+        "t": 0
       },
       {
-         "id":"Channel-GED.Producer.CHILLER-UC600-A1.CHILLER A1 AUTO/MANUAL MODE.PRESENTVALUE",
-         "s":true,
-         "r":"",
-         "v":8,
-         "t":1622387445000
+        "id": "Channel-GED.Producer.CHILLER-UC600-A1.CHILLER A1 AUTO/MANUAL MODE.PRESENTVALUE",
+        "s": true,
+        "r": "",
+        "v": 8,
+        "t": 1622387445000
       },
       {
-         "id":"Channel-GED.Producer.CHILLER-UC600-A1.CHILLER A1 CW FLOWRATE.PRESENTVALUE",
-         "s":true,
-         "r":"",
-         "v":13,
-         "t":1622387445000
+        "id": "Channel-GED.Producer.CHILLER-UC600-A1.CHILLER A1 CW FLOWRATE.PRESENTVALUE",
+        "s": true,
+        "r": "",
+        "v": 13,
+        "t": 1622387445000
       },
       {
-         "id":"Channel-GED.Producer.CHILLER-UC600-A1.CWP A1 MCC TRIP STATUS.PRESENTVALUE",
-         "s":true,
-         "r":"",
-         "v":1,
-         "t":1622387445000
+        "id": "Channel-GED.Producer.CHILLER-UC600-A1.CWP A1 MCC TRIP STATUS.PRESENTVALUE",
+        "s": true,
+        "r": "",
+        "v": 1,
+        "t": 1622387445000
       },
       {
-         "id":"Channel-GED.Producer.CHILLER-UC600-B1.CT B1 FAN2 AUTO/MANUAL MODE.PRESENTVALUE",
-         "s":true,
-         "r":"",
-         "v":1,
-         "t":1622387445000
+        "id": "Channel-GED.Producer.CHILLER-UC600-B1.CT B1 FAN2 AUTO/MANUAL MODE.PRESENTVALUE",
+        "s": true,
+        "r": "",
+        "v": 1,
+        "t": 1622387445000
       },
       {
-         "id":"Channel1.Device1.Tag1test",
-         "s":false,
-         "r":"Tag is invalid.",
-         "v":"",
-         "t":0
+        "id": "Channel1.Device1.Tag1test",
+        "s": false,
+        "r": "Tag is invalid.",
+        "v": "",
+        "t": 0
       },
       {
-         "id":"Channel-GED.Producer.CHILLER-UC600-B1.CWP B1 START COMMAND.PRESENTVALUE",
-         "s":true,
-         "r":"",
-         "v":11,
-         "t":1622387445000
+        "id": "Channel-GED.Producer.CHILLER-UC600-B1.CWP B1 START COMMAND.PRESENTVALUE",
+        "s": true,
+        "r": "",
+        "v": 11,
+        "t": 1622387445000
       },
       {
-         "id":"Channel-GED.Producer.CHILLER-UC600-B1.HEADER B CHW SUPPLY PRESSURE.PRESENTVALUE",
-         "s":true,
-         "r":"",
-         "v":5,
-         "t":1622387445000
+        "id": "Channel-GED.Producer.CHILLER-UC600-B1.HEADER B CHW SUPPLY PRESSURE.PRESENTVALUE",
+        "s": true,
+        "r": "",
+        "v": 5,
+        "t": 1622387445000
       }
-   ]
-}
-  ,
+    ]
+  },
   "profile": {
     "name": "vinh typicode"
   }
