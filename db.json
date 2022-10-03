@@ -1,4 +1,44 @@
 {
+  "pdgAlarmEvents":
+  [
+    {
+      "AlarmId": "02/Server 1",
+      "Acknowledgeable": 1,
+      "OccurredOn": "2022-10-01T09:03:03Z",
+      "LastTransitionedOn": "2022-10-01T09:03:03Z",
+      "Message": "System Alarm! System wam start [7]",
+      "Priority": 100,
+      "State": 1,
+      "Type": "System alarm",
+      "AlarmSourceName": "Server 1",
+      "Id": "/Server 1|/Server 1*7|1703f250-df15-45ec-af1f-e17b22cc9384"
+    },
+    {
+      "AlarmId": "02/Server 2",
+      "Acknowledgeable": 1,
+      "OccurredOn": "2022-10-02T21:03:03Z",
+      "LastTransitionedOn": "2022-10-02T21:03:03Z",
+      "Message": "System Alarm! System wam start [7]",
+      "Priority": 90,
+      "State": 1,
+      "Type": "System alarm",
+      "AlarmSourceName": "Server 1",
+      "Id": "/Server 2|/Server 1*7|1703f250-df15-45ec-af1f-e17b22cc9384"
+    },
+    {
+      "AlarmId": "02/Server 2",
+      "Acknowledgeable": 1,
+      "OccurredOn": "2022-10-03T09:03:03Z",
+      "LastTransitionedOn": "2022-10-03T09:03:03Z",
+      "Message": "System Alarm! System wam start [7]",
+      "Priority": 10,
+      "State": 1,
+      "Type": "System alarm",
+      "AlarmSourceName": "Server 1",
+      "Id": "/Server 3|/Server 1*7|1703f250-df15-45ec-af1f-e17b22cc9384"
+    }
+  ]
+  ,
   "findAddressCandidates": {
     "spatialReference": {
       "wkid": 3414,
