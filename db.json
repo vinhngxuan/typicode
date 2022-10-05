@@ -1,5 +1,15 @@
 {
-  "pdgAlarmEvents":
+  "pdgAlarm":
+  {
+      "State": 4,
+      "ValueId": "01/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Values/Branch Current/S10I",
+      "TransitionModel": 0,
+      "Name": "S10IAlm",
+      "Description": "",
+      "ParentId": "00/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm",
+      "Id": "02/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S10IAlm"
+  }
+  ,"pdgAlarmEvents":
   [
   {
     "AlarmId": "02/DCIM-PBB-105-AS1*7",
@@ -96,126 +106,6 @@
     "Type": "Critical",
     "AlarmSourceName": "S16IAlm",
     "Id": "/DCIM-2B1-1A-AS2|/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S16IAlm|50b97095-426d-4515-bd70-3f7bfe18446d"
-  },
-  {
-    "AlarmId": "02/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S17IAlm",
-    "Acknowledgeable": 0,
-    "OccurredOn": "2020-07-13T08:18:05Z",
-    "LastTransitionedOn": "2021-04-07T12:16:39Z",
-    "Message": "PDGSG1-BCPM-PDU-2B-1-5A P6L2 Current Returned to Normal ",
-    "Priority": 10,
-    "State": 4,
-    "Type": "Critical",
-    "AlarmSourceName": "S17IAlm",
-    "Id": "/DCIM-2B1-1A-AS2|/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S17IAlm|b44f0944-f9ac-47a2-83d8-7665b6d325dd"
-  },
-  {
-    "AlarmId": "02/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S18IAlm",
-    "Acknowledgeable": 0,
-    "OccurredOn": "2020-07-13T08:18:05Z",
-    "LastTransitionedOn": "2021-04-07T12:16:39Z",
-    "Message": "PDGSG1-BCPM-PDU-2B-1-5A P6L3 Current Returned to Normal ",
-    "Priority": 10,
-    "State": 4,
-    "Type": "Critical",
-    "AlarmSourceName": "S18IAlm",
-    "Id": "/DCIM-2B1-1A-AS2|/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S18IAlm|a51de465-0d8f-45ad-bb73-90868a7199e1"
-  },
-  {
-    "AlarmId": "02/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S19IAlm",
-    "Acknowledgeable": 0,
-    "OccurredOn": "2020-07-13T08:18:05Z",
-    "LastTransitionedOn": "2021-04-07T12:16:39Z",
-    "Message": "PDGSG1-BCPM-PDU-2B-1-5A P7L1 Current Returned to Normal ",
-    "Priority": 10,
-    "State": 4,
-    "Type": "Critical",
-    "AlarmSourceName": "S19IAlm",
-    "Id": "/DCIM-2B1-1A-AS2|/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S19IAlm|a88e1dfc-9249-4746-aab3-c4638d97dff0"
-  },
-  {
-    "AlarmId": "02/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S1IAlm",
-    "Acknowledgeable": 0,
-    "OccurredOn": "2020-07-13T08:18:05Z",
-    "LastTransitionedOn": "2021-04-07T12:16:39Z",
-    "Message": "PDGSG1-BCPM-PDU-2B-1-5A P1L1 Current Returned to Normal ",
-    "Priority": 10,
-    "State": 4,
-    "Type": "Critical",
-    "AlarmSourceName": "S1IAlm",
-    "Id": "/DCIM-2B1-1A-AS2|/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S1IAlm|7884f02c-4172-48b7-bb93-ec1e3d38849e"
-  },
-  {
-    "AlarmId": "02/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S20IAlm",
-    "Acknowledgeable": 0,
-    "OccurredOn": "2020-07-13T08:18:05Z",
-    "LastTransitionedOn": "2021-04-07T12:16:39Z",
-    "Message": "PDGSG1-BCPM-PDU-2B-1-5A P7L2 Current Returned to Normal ",
-    "Priority": 10,
-    "State": 4,
-    "Type": "Critical",
-    "AlarmSourceName": "S20IAlm",
-    "Id": "/DCIM-2B1-1A-AS2|/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S20IAlm|8b3f577f-c57a-40d8-963b-708cb2cc571d"
-  },
-  {
-    "AlarmId": "02/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S21IAlm",
-    "Acknowledgeable": 0,
-    "OccurredOn": "2020-07-13T08:18:05Z",
-    "LastTransitionedOn": "2021-04-07T12:16:39Z",
-    "Message": "PDGSG1-BCPM-PDU-2B-1-5A P7L3 Current Returned to Normal ",
-    "Priority": 10,
-    "State": 4,
-    "Type": "Critical",
-    "AlarmSourceName": "S21IAlm",
-    "Id": "/DCIM-2B1-1A-AS2|/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S21IAlm|11fb7d78-bab0-40cf-92c2-cf2bc3788af1"
-  },
-  {
-    "AlarmId": "02/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S22IAlm",
-    "Acknowledgeable": 0,
-    "OccurredOn": "2020-07-13T08:18:05Z",
-    "LastTransitionedOn": "2021-04-07T12:16:39Z",
-    "Message": "PDGSG1-BCPM-PDU-2B-1-5A P8L1 Current Returned to Normal ",
-    "Priority": 10,
-    "State": 4,
-    "Type": "Critical",
-    "AlarmSourceName": "S22IAlm",
-    "Id": "/DCIM-2B1-1A-AS2|/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S22IAlm|311b1eb3-690d-4ff9-ae3f-236afe81024a"
-  },
-  {
-    "AlarmId": "02/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S23IAlm",
-    "Acknowledgeable": 0,
-    "OccurredOn": "2020-07-13T08:18:05Z",
-    "LastTransitionedOn": "2021-04-07T12:16:39Z",
-    "Message": "PDGSG1-BCPM-PDU-2B-1-5A P8L2 Current Returned to Normal ",
-    "Priority": 10,
-    "State": 4,
-    "Type": "Critical",
-    "AlarmSourceName": "S23IAlm",
-    "Id": "/DCIM-2B1-1A-AS2|/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S23IAlm|1bfdbb70-b4b0-4759-84b3-f738565d221b"
-  },
-  {
-    "AlarmId": "02/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S24IAlm",
-    "Acknowledgeable": 0,
-    "OccurredOn": "2020-07-13T08:18:04Z",
-    "LastTransitionedOn": "2021-04-07T12:16:39Z",
-    "Message": "PDGSG1-BCPM-PDU-2B-1-5A P8L3 Current Returned to Normal ",
-    "Priority": 10,
-    "State": 4,
-    "Type": "Critical",
-    "AlarmSourceName": "S24IAlm",
-    "Id": "/DCIM-2B1-1A-AS2|/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S24IAlm|1aebeefa-63c9-46b0-b204-e40bebae9227"
-  },
-  {
-    "AlarmId": "02/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S25IAlm",
-    "Acknowledgeable": 0,
-    "OccurredOn": "2020-07-13T08:18:05Z",
-    "LastTransitionedOn": "2021-04-07T12:16:39Z",
-    "Message": "PDGSG1-BCPM-PDU-2B-1-5A P9L1 Current Returned to Normal ",
-    "Priority": 10,
-    "State": 4,
-    "Type": "Critical",
-    "AlarmSourceName": "S25IAlm",
-    "Id": "/DCIM-2B1-1A-AS2|/DCIM-2B1-1A-AS2/Equipment/BCPM/BCPM-PDU-2B-1-5A/Alarm/S25IAlm|e198c139-5320-44a9-a13d-e36d7f1f9972"
   }
 ]
   ,
